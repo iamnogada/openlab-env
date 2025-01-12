@@ -188,3 +188,14 @@ az aks nodepool add --resource-group $RESOURCE_GROUP --cluster-name $AKS_CLUSTER
 
 
 ```
+
+### Setup Prometheus
+[github_ref](https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack)
+
+
+```sh
+helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
+helm repo update
+
+
+```
