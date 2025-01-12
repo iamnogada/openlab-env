@@ -173,3 +173,18 @@ spec:
 EOF
 
 ```
+
+### Node Pool 구성
+
+```sh
+
+az aks nodepool add --resource-group $RESOURCE_GROUP --cluster-name $AKS_CLUSTER_NAME --name mypool --node-count 3 --node-vm-size Standard_D4as_v4 --mode User --no-wait
+
+```
+
+### Storage 구성(nfs, disk)
+
+```sh
+
+
+```
